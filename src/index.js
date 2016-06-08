@@ -2,7 +2,7 @@ import postcss from "postcss"
 
 function make_css_class(str) {
   var rx = /\[class\*="(.*)"\]/;
-  var classname = "." + str.match(rx)[1].replace(/\s/g, "_");
+  var classname = "." + str.match(rx)[1].replace(/\s/g, ".");
   return str.replace(rx, classname);
 }
 
