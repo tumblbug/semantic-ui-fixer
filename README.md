@@ -33,7 +33,7 @@ var suf = require("semantic-ui-fixer");
 ```
 
 ## Extended Details
-### seperator
+### varying sep
 
 ```js
 // in your build pipeline,
